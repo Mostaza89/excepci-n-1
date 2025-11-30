@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clase ejercicio 2\Clase metodos.cs" />
+    <Compile Include="Clase ejercicio 3\Clasemetodos.cs" />
+    <Compile Include="Clase ejercicio 5\Clasevalidardatos.cs" />
+    <Compile Include="Clase ejercicio 5\DatoInvalidoException.cs" />
     <Compile Include="ejercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +68,18 @@
     <Compile Include="ejercicio3.Designer.cs">
       <DependentUpon>ejercicio3.cs</DependentUpon>
     </Compile>
+    <Compile Include="ejercicio4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ejercicio4.Designer.cs">
+      <DependentUpon>ejercicio4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicio5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicio5.Designer.cs">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +96,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ejercicio3.resx">
       <DependentUpon>ejercicio3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ejercicio4.resx">
+      <DependentUpon>ejercicio4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio5.resx">
+      <DependentUpon>Ejercicio5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -31,6 +31,8 @@
             this.buttonejercicio1 = new System.Windows.Forms.Button();
             this.buttonejercicio2 = new System.Windows.Forms.Button();
             this.buttonejercicio3 = new System.Windows.Forms.Button();
+            this.buttonEjercicio4 = new System.Windows.Forms.Button();
+            this.bnEjercicio5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonejercicio1
@@ -63,11 +65,33 @@
             this.buttonejercicio3.UseVisualStyleBackColor = true;
             this.buttonejercicio3.Click += new System.EventHandler(this.buttonejercicio3_Click);
             // 
+            // buttonEjercicio4
+            // 
+            this.buttonEjercicio4.Location = new System.Drawing.Point(69, 330);
+            this.buttonEjercicio4.Name = "buttonEjercicio4";
+            this.buttonEjercicio4.Size = new System.Drawing.Size(89, 40);
+            this.buttonEjercicio4.TabIndex = 3;
+            this.buttonEjercicio4.Text = "Ejercicio 4";
+            this.buttonEjercicio4.UseVisualStyleBackColor = true;
+            this.buttonEjercicio4.Click += new System.EventHandler(this.buttonEjercicio4_Click);
+            // 
+            // bnEjercicio5
+            // 
+            this.bnEjercicio5.Location = new System.Drawing.Point(248, 78);
+            this.bnEjercicio5.Name = "bnEjercicio5";
+            this.bnEjercicio5.Size = new System.Drawing.Size(89, 40);
+            this.bnEjercicio5.TabIndex = 4;
+            this.bnEjercicio5.Text = "Ejercicio 5";
+            this.bnEjercicio5.UseVisualStyleBackColor = true;
+            this.bnEjercicio5.Click += new System.EventHandler(this.bnEjercicio5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bnEjercicio5);
+            this.Controls.Add(this.buttonEjercicio4);
             this.Controls.Add(this.buttonejercicio3);
             this.Controls.Add(this.buttonejercicio2);
             this.Controls.Add(this.buttonejercicio1);
@@ -82,6 +106,8 @@
         private System.Windows.Forms.Button buttonejercicio1;
         private System.Windows.Forms.Button buttonejercicio2;
         private System.Windows.Forms.Button buttonejercicio3;
+        private System.Windows.Forms.Button buttonEjercicio4;
+        private System.Windows.Forms.Button bnEjercicio5;
     }
 }
 

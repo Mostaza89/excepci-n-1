@@ -37,5 +37,19 @@ namespace excepción_1
             form.Show();
             this.Hide();
         }
+
+        private void buttonEjercicio4_Click(object sender, EventArgs e)
+        {
+            ejercicio4 form = new ejercicio4();
+            form.Show();
+            this.Hide();
+        }
+
+        private void bnEjercicio5_Click(object sender, EventArgs e)
+        {
+            Ejercicio5 form = new Ejercicio5();
+            form.Show();
+            this.Hide();
+        }
     }
 }
